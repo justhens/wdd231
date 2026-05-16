@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Justin Henson Course Home Page">
+    <meta name="author" content="Justin Henson">
+    <title>Justin Henson Course Home</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <img src="images/byui-logo.svg" alt="Logo" class="logo">
+            <span class="site-name">Justin Henson</span>
+            <button id="hamburger" aria-label="Toggle navigation menu">&#9776;</button>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="chamber/index.html">Chamber Project</a></li>
+                <li><a href="final/index.html">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <section class="about-section">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hey! My name is Justin Henson and I'm 22 years old. I live with my wife Ashlyn and we have been married for almost 2 years. I am working towards my degree in software development and I love learning new things. I am from Orlando, Florida and have a job with Dish Network. I am a Senior Business Specialist so I help businesses such as hotels, restaurants, bars, etc. that are in need of TV services. Some of my hobbies are cooking, photography, and playing video games. WDD231 is the last course needed to earn my first certificate through BYU Pathways so I am very excited. I am hopeful that as I earn my certificate and work towards my bachelors degree it will open up more opportunities at my job to use the skills I have learned.</p>
+                </div>
+                <div class="about-photo">
+                    <h2>Student Photo</h2>
+                    <img src="images/profile.jpg" alt="Your Name">
+                </div>
+            </div>
+        </section>
+
+        <section class="courses-section">
+            <h2>Web Certificate Courses</h2>
+            <div class="filter-buttons">
+                <button id="btn-all" class="filter-btn active-btn">All</button>
+                <button id="btn-cse" class="filter-btn">CSE</button>
+                <button id="btn-wdd" class="filter-btn">WDD</button>
+            </div>
+            <div id="courses-container"></div>
+            <p class="credits-line">The total credits for courses listed above is <span id="total-credits"></span></p>
+        </section>
+    </main>
+
+    <footer>
+       <div class="social-links">
+    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+        <img src="images/linkedin.svg" alt="LinkedIn">
+    </a>
+    <a href="https://github.com" target="_blank" aria-label="GitHub">
+        <img src="images/github.svg" alt="GitHub">
+    </a>
+    <a href="https://x.com" target="_blank" aria-label="X">
+        <img src="images/x.svg" alt="X">
+    </a>
+</div>
+        <p>&copy; <span id="currentyear"></span> Justin Henson</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+@media (min-width: 640px) {
+
+    /* ---- HEADER ---- */
+    #hamburger {
+        display: none;
+    }
+
+    #main-nav ul {
+        display: flex !important;
+        flex-direction: row;
+    }
+
+    #main-nav ul li a {
+        padding: 10px 20px;
+        border-bottom: none;
+        border-right: 1px solid #2a2a4a;
+    }
+
+    #main-nav ul li a:hover,
+    #main-nav ul li a.active {
+        background-color: #0f3460;
+    }
+
+    /* ---- MAIN ---- */
+    main {
+        padding: 24px 24px;
+    }
+    .about-grid {
+        flex-direction: row;
+    }
+
+    .about-text {
+        flex: 2;
+        padding: 16px;
+        border-right: 1px solid #ddd;
+    }
+
+    .about-text h2 {
+        margin: -16px -16px 12px -16px;
+    }
+
+    .about-photo {
+        flex: 1;
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-photo img {
+        max-width: 100%;
+        margin: 14px auto;
+        padding: 0 14px;
+    }
+    .filter-buttons {
+        padding: 14px 14px 0 14px;
+    }
+
+    .filter-btn {
+        padding: 8px 20px;
+    }
+}
