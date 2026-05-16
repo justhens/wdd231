@@ -228,7 +228,6 @@ footer {
 .social-links a img {
     width: 32px;
     height: 32px;
-    filter: brightness(0) invert(1);
 }
 
 .social-links a:hover img {
@@ -237,4 +236,8 @@ footer {
 
 footer p {
     line-height: 1.5;
+}
+.social-section {
+    background: transparent;
+    box-shadow: none;
 }
