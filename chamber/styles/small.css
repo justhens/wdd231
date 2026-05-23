@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#directory {
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.buttons button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #2c3e50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #1a252f;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.list {
+    display: block;
+    padding: 1rem;
+}
+
+.list .card {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.list .card:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.list .card:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.list img {
+    display: none;
+}
+.card {
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    margin: 0 0 0.5rem 0;
+}
+
+.card p {
+    margin: 0.25rem 0;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #1a4fb3;
+}
+
+.gold {
+    color: #b8860b;
+    font-weight: bold;
+}
+
+.silver {
+    color: #6c7a89;
+    font-weight: bold;
+}
+
+.member {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2c3e50;
+    color: white;
+    margin-top: 1rem;
+}

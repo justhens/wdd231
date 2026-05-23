@@ -1,0 +1,67 @@
+{
+  "businesses": [
+    {
+      "name": "Ovation Bistro & Bar",
+      "address": "Davenport, FL",
+      "phone": "(863) 353-5000",
+      "website": "https://ovationbistro.com",
+      "image": "ovation.jpg",
+      "membership": 3,
+      "description": "Popular local restaurant known for barbecue."
+    },
+    {
+      "name": "Cooter's Smokehouse",
+      "address": "Davenport, FL",
+      "phone": "(863) 424-4227",
+      "website": "https://cooterssmokehouse.com",
+      "image": "cooters.jpg",
+      "membership": 2,
+      "description": "Casual BBQ restaurant."
+    },
+    {
+      "name": "True Blue Winery",
+      "address": "Davenport, FL",
+      "phone": "(863) 420-9918",
+      "website": "https://truebluewinery.com",
+      "image": "winery.jpg",
+      "membership": 3,
+      "description": "Local winery with tastings."
+    },
+    {
+      "name": "Posner Park",
+      "address": "Davenport, FL",
+      "phone": "(863) 438-8944",
+      "website": "https://posnerparkshopping.com",
+      "image": "posner.jpg",
+      "membership": 2,
+      "description": "Shopping center with many stores."
+    },
+    {
+      "name": "AdventHealth Heart of Florida",
+      "address": "Davenport, FL",
+      "phone": "(863) 422-4971",
+      "website": "https://adventhealth.com",
+      "image": "hospital.jpg",
+      "membership": 3,
+      "description": "Local hospital and healthcare provider."
+    },
+    {
+      "name": "Publix Super Market",
+      "address": "Davenport, FL",
+      "phone": "(863) 424-1805",
+      "website": "https://publix.com",
+      "image": "publix.jpg",
+      "membership": 1,
+      "description": "Grocery store with fresh food."
+    },
+    {
+      "name": "Davenport Parks & Recreation",
+      "address": "Davenport, FL",
+      "phone": "(863) 419-3300",
+      "website": "https://davenportfl.gov",
+      "image": "parks.jpg",
+      "membership": 1,
+      "description": "Manages parks and community events."
+    }
+  ]
+}
