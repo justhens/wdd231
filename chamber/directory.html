@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Davenport Directory</title>
+
+    <title>Davenport Chamber Directory</title>
+
+    <meta name="description" content="Davenport Chamber directory of local businesses, services, and community organizations in Davenport, Florida.">
+    <meta name="author" content="Your Name">
+    <meta property="og:title" content="Davenport Business Directory">
+    <meta property="og:description" content="Explore local businesses, restaurants, and services in Davenport, Florida.">
+    <meta property="og:image" content="https://justhens.github.io/wdd231/chamber/images/preview.jpg">
+    <meta property="og:url" content="https://justhens.github.io/wdd231/chamber/directory.html">
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <header>
-    <h1>City of Davenport Chamber</h1>
     <nav>
         <a href="#">Home</a>
         <a href="directory.html">Directory</a>
@@ -20,19 +31,20 @@
 </header>
 
 <main>
+    <h1>Davenport Business Directory</h1>
+
     <div class="buttons">
         <button id="gridBtn">Grid</button>
         <button id="listBtn">List</button>
     </div>
 
-    <section id="directory" class="grid">
-    </section>
+    <section id="directory" class="grid"></section>
 </main>
 
 <footer>
-    <p>&copy; 2026 Justin Henson</p>
+    <p>&copy; 2026 Davenport Chamber</p>
 </footer>
 
-<script src="scripts/directory.js"></script>
+<script src="scripts/directory.js" defer></script>
 </body>
 </html>
