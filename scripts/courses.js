@@ -61,10 +61,27 @@ const courses = [
     }
 ];
 
+const courseDetails = document.querySelector('#course-details');
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+        <button id="closeModal">❌</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits</strong>: ${course.credits}</p>
+        <p><strong>Certificate</strong>: ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+    `;
+    courseDetails.showModal();
+
+    document.querySelector('#closeModal').addEventListener('click', () => {
+        courseDetails.close();
+    });
+}
 function displayCourses(list) {
     const container = document.getElementById("courses-container");
     container.innerHTML = "";
-
     list.forEach(function(course) {
         const card = document.createElement("div");
         card.classList.add("course-card");
@@ -72,16 +89,21 @@ function displayCourses(list) {
             card.classList.add("completed");
         }
         card.textContent = course.subject + " " + course.number;
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
+
         container.appendChild(card);
     });
 
     const totalCredits = list.reduce(function(sum, course) {
         return sum + course.credits;
     }, 0);
-
     document.getElementById("total-credits").textContent = totalCredits;
 }
+
 displayCourses(courses);
+
 document.getElementById("btn-all").addEventListener("click", function() {
     setActiveBtn(this);
     displayCourses(courses);
