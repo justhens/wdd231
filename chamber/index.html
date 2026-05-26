@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davenport Chamber of Commerce</title>
+    <meta name="description" content="Welcome to the Davenport Chamber of Commerce - supporting local businesses and community in Davenport, Florida.">
+    <meta name="author" content="Justin Henson">
+    <meta property="og:title" content="Davenport Chamber of Commerce">
+    <meta property="og:description" content="Join the Davenport business community and grow with us.">
+    <meta property="og:image" content="https://justhens.github.io/wdd231/chamber/images/preview.jpg">
+    <meta property="og:url" content="https://justhens.github.io/wdd231/chamber/index.html">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/parks.jpg" alt="Davenport Chamber of Commerce">
+             <h1>Davenport Chamber Of Commerce</h1>
+        </div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+ <!-- Hero Section -->
+        <section class="hero">
+            <a href="join.html" class="hero-cta">Join</a>
+        </section>
+    <main>
+        <div class="content-grid">
+            <section class="events card">
+                <h2>Events</h2>
+                <div class="event">
+                    <h3>Business Networking Mixer</h3>
+                    <p class="event-date">June 15, 2026 • 6:00 PM</p>
+                    <p>Join fellow business owners for an evening of networking and collaboration at Ovation Bistro.</p>
+                </div>
+                <div class="event">
+                    <h3>Small Business Workshop</h3>
+                    <p class="event-date">June 22, 2026 • 2:00 PM</p>
+                    <p>Learn strategies to grow your business in the digital age.</p>
+                </div>
+                <div class="event">
+                    <h3>Chamber Monthly Meeting</h3>
+                    <p class="event-date">July 5, 2026 • 9:00 AM</p>
+                    <p>Monthly meeting to discuss community initiatives and business opportunities.</p>
+                </div>
+            </section>
+
+            <!--Weather Section -->
+            <section class="weather-current card">
+                <h2>Current Weather</h2>
+                <div id="current-weather">
+                    <p class="loading">Loading...</p>
+                </div>
+            </section>
+
+            <section class="weather-forecast card">
+                <h2>Weather Forecast</h2>
+                <div id="forecast">
+                    <p class="loading">Loading...</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Spotlights Section -->
+        <section class="spotlights-section">
+            <div id="spotlight-container">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Davenport Chamber of Commerce</h3>
+                <p>123 Main Street</p>
+                <p>Davenport, FL 33897</p>
+                <p>info@davenportchamber.org</p>
+                <p>(863) 555-1234</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><img src="images/facebook.svg" alt="Facebook"></a>
+                <a href="#" aria-label="Twitter"><img src="images/twitter.svg" alt="Twitter"></a>
+                <a href="#" aria-label="LinkedIn"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+            <div class="footer-project">
+                <p>&copy; 2026 Davenport Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

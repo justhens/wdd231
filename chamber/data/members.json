@@ -7,7 +7,7 @@
       "website": "https://ovationbistro.com",
       "image": "ovation.jpg",
       "membership": 3,
-      "description": "Popular local restaurant known for barbecue."
+      "description": "Popular Local restaurant."
     },
     {
       "name": "Cooter's Smokehouse",
@@ -43,7 +43,7 @@
       "website": "https://adventhealth.com",
       "image": "hospital.jpg",
       "membership": 3,
-      "description": "Local hospital and healthcare provider."
+      "description": "Local hospital/healthcare provider."
     },
     {
       "name": "Publix Super Market",
@@ -55,13 +55,13 @@
       "description": "Grocery store with fresh food."
     },
     {
-      "name": "Davenport Parks & Recreation",
+      "name": "Davenport Target",
       "address": "Davenport, FL",
-      "phone": "(863) 419-3300",
-      "website": "https://davenportfl.gov",
-      "image": "parks.jpg",
+      "phone": "(863) 256-1051",
+      "website": "https://www.target.com",
+      "image": "target.jpg",
       "membership": 1,
-      "description": "Manages parks and community events."
+      "description": "Your local Target!"
     }
   ]
 }
