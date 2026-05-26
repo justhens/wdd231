@@ -131,3 +131,11 @@ function displaySpotlights(members) {
         container.appendChild(card);
     });
 }
+const btn = document.getElementById('hamburger-btn');
+const nav = document.querySelector('nav');
+
+btn.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    btn.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen);
+});

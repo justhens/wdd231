@@ -50,3 +50,5 @@
         text-align: right;
     }
 }
+.hamburger { display: none; }
+nav { display: flex; flex-direction: row; }
