@@ -19,6 +19,16 @@ listBtn.addEventListener("click", () => {
     gridBtn.classList.remove("active");
     getBusinesses();
 });
+const btn = document.getElementById('hamburger-btn');
+const nav = document.querySelector('nav');
+
+if (btn && nav) {
+    btn.addEventListener('click', () => {
+        const isOpen = nav.classList.toggle('open');
+        btn.classList.toggle('open');
+        btn.setAttribute('aria-expanded', isOpen);
+    });
+}
 
 async function getBusinesses() {
     try {
@@ -80,5 +90,6 @@ function displayBusinesses(businesses) {
         card.appendChild(link);
 
         directory.appendChild(card);
+    
     });
 }
